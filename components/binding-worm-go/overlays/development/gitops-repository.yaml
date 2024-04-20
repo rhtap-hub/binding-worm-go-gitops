@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: binding-worm-go-gitops-repository
+spec:
+  url: https://github.com/rhtap-hub/binding-worm-go-gitops
